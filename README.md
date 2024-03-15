@@ -1,5 +1,7 @@
 # Flover: Flexibly Orchestrating RAG Processes for Large Language Models
 
+Flover comes from "Flow" and "Vertex".
+
 Flover is a powerful framework designed to streamline and orchestrate various stages of the Retrieval-Augmented Generation (RAG) process for large language models. It enables developers to efficiently preset and manage tasks such as preprocessing, searching, retrieval, ranking, web scraping, and interfacing with large models, among other functionalities. Built on the foundation of Directed Acyclic Graphs (DAGs), Flover offers a flexible and efficient way to deploy and manage your own RAG services.
 
 Key Features
