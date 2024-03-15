@@ -30,19 +30,24 @@ Here's a simple example demonstrating how you can define a basic RAG workflow us
 from flover import Flover
 
 # Initialize Flover instance
+```python
 flover = Flover()
-
+```
 # Define tasks for preprocessing, searching, retrieval, etc.
+```python
 preprocessing_task = flover.add_task("Preprocessing")
 search_task = flover.add_task("Search")
 retrieval_task = flover.add_task("Retrieval")
-
+```
 # Define dependencies between tasks
+```python
 flover.add_edge(preprocessing_task, search_task)
 flover.add_edge(search_task, retrieval_task)
-
+```
 # Execute the workflow
+```python
 flover.execute_workflow()
+```
 Contributing
 We welcome contributions to Flover! If you have ideas for new features, improvements, or bug fixes, please feel free to submit a pull request or open an issue on our GitHub repository.
 
