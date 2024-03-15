@@ -16,7 +16,10 @@ Efficient Execution: Flover provides efficient task scheduling and execution mec
 Getting Started
 To get started with Flover, follow these steps:
 
-Install Flover by running pip install flover.
+Install Flover by running 
+```bash
+pip install flover(comming soon)
+```
 
 Define your RAG workflow using the Flover API, specifying the tasks and their dependencies.
 
